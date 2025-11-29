@@ -98,7 +98,9 @@ export type SignalDataTypeMap = {
 	'app-state-sync-version': LTHashState
 	'sender-key-memory': {
 		[jid: string]: boolean
-	}
+	},
+	'lid-mapping': string;
+    'device-list': string[];
 }
 
 export type SignalDataSet = {
